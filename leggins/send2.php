@@ -28,7 +28,7 @@ $email = trim($email);
 $phone =  trim($phone);
 $sity = trim($sity);
 $message = trim($message);
-if (mail("kirillpyshnenko93@gmail.com", "Заказ с сайта",". заказ: .$data.\n".. инфо: .$LSdata." ,"From: admin@zzshop.zzz.com.ua \r\n"))
+if (mail("leggins93@ukr.net", "Заказ с сайта",". заказ: .$data.\n".. инфо: .$LSdata." ,"From: admin@zzshop.zzz.com.ua \r\n"))
   {
 mail($email, "Заказ принят", "$firstname,благодарим за покупку $productname.\n". "В ближайшее время наш менеджер свяжется с вами для уточнения деталей" ,"From: admin@zzshop.zzz.com.ua \r\n");
  require('index.html');  
